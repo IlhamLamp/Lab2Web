@@ -43,3 +43,13 @@ nav {
     .btn-primary {
     background: #E42A42;
     }
+
+    #paragraf-1 {
+    color: white;
+    font-size: large;
+    }
+
+    .text-paragraf {
+    color: red;
+    font-size: xx-small;
+    }

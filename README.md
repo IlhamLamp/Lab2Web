@@ -69,7 +69,31 @@
   - ``#intro h1`` merupakan <i>id selector</i>, sehingga pemformatan ``h1`` akan mengikuti ``#intro``.<br><br>
 
 <b>3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!</b>
-  - Jawaban = 
+  - Jawaban = Deklarasi terakhir,
+
+  - Kode sebelum,
+![img14](image/3_1-kode-sebelum.PNG)<br>
+
+  - Kode sesudah,
+![img15](image/3_2-kode-sesudah.PNG)<br>
+
+  - <b>Internal CSS</b> membuat tag ``<p>`` berwarna hitam, ukuran huruf besar, serta teks rata kanan. Namun tidak tereksekusi, karena masih ada kode selanjutnya (yang mirip).
+  - <b>Eksternal CSS</b> membuat tag ``<p>`` berwarna oranye, ukuran huruf sangat kecil, serta teks rata kanan-kiri. Namun tidak tereksekusi seluruhnya, hanya ukuran huruf.
+  - <b>Inline CSS</b> membuat tag ``<p>`` berwarna biru pudar, ukuran huruf masih dari <b>eksternal css</b>, aserta teks rata tengah. Maka kode yang tampil adalah: Teks rata tengah, warna biru pudar, ukuran sangat kecil.
+  - CSS mengambil kode program yang terakhir.
+  - Internal kemudian > Eksternal kemudian > Inline CSS<br><br>
 
 
-<b>4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf">)</b>
+<b>4. Pada sebuah elemen HTML terdapat ID dan Class, apabila    asing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! (<p id="paragraf-1" class="text-paragraf">)</b>
+  - Jawaban = ID
+   
+  - Kode sebelum,
+![img16](image/4_1-kode-sebelum.PNG)<br>
+
+  - Kode sesudah,
+![img17](image/4_2-kode-sesudah.PNG)<br>
+![img18](image/4_2_1-kode-sesudah.PNG)<br>
+
+  - ``id`` unik, digunakan pada tempat tertentu.
+  - ``class`` lebih umum, sering digunakan untuk beberapa elemen.
+  - ``id`` akan lebih ditampilkan.
