@@ -41,6 +41,16 @@
 
 
 # Latihan
-<b>1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.</b>
+<b>1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.</b><br>
   - Jawaban = 
+  - Membuat file baru, ``mencoba.html`` dengan eksternal css ``mencoba_css``.
 
+  - Kode awal,
+![img8](image/1_1-file-baru.PNG)<br>  
+  
+  - Setelah perubahan,
+![img9](image/1_2-setelah-perubahan.PNG)<br>
+
+  - Mengubah warna ``nav`` menjadi merah pada file ``mencoba_css.css``, dengan mengganti nilai dari properti ``background``.
+  - Menambahkan font khusus untuk <i>hyperlink</i> yang ada di ``nav a``, menjadi <b>IMPACT</b>, tidak berpengaruh pada tag lain.
+  
