@@ -52,5 +52,24 @@
 ![img9](image/1_2-setelah-perubahan.PNG)<br>
 
   - Mengubah warna ``nav`` menjadi merah pada file ``mencoba_css.css``, dengan mengganti nilai dari properti ``background``.
-  - Menambahkan font khusus untuk <i>hyperlink</i> yang ada di ``nav a``, menjadi <b>IMPACT</b>, tidak berpengaruh pada tag lain.
+  - Menambahkan font khusus untuk <i>hyperlink</i> yang ada di ``nav a``, menjadi <b>IMPACT</b>, tidak berpengaruh pada tag lain.<br><br>
+
+<b>2. Apa perbedaan pendeklarasian CSS elemen ``h1 {...}`` dengan ``#intro h1 {...}``? berikan penjelasannya!</b>
+  - Jawaban =
+
+  - Dengan ``#intro h1``,
+![img10](image/2_1-intro-h1.PNG)<br>
   
+  - Tanpa ``#intro h1``, hanya ``h1``,
+![img11](image/2_2-h1.PNG)<br>
+
+  - ``h1`` merupakan <i>element selector</i> yang umum pada tag html, namun karena selektor tersebut dibawah pengaruh ``id=intro``, 
+![img12](image/2_3-h1.PNG) maka css eksternal kebingungan mencari ``h1`` yang dimaksud. Tampilah ``h1`` yang ada di internal css ``mencoba.html``. ![img13](image/2_4-h1.PNG)
+
+  - ``#intro h1`` merupakan <i>id selector</i>, sehingga pemformatan ``h1`` akan mengikuti ``#intro``.<br><br>
+
+<b>3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!</b>
+  - Jawaban = 
+
+
+<b>4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf">)</b>
